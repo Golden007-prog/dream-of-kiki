@@ -272,10 +272,11 @@ uv run python scripts/conformance_matrix.py   # C1–C3 conformance matrix
 uv run pytest tests/conformance/ -v --no-cov
 ```
 
+The G4 ablation, G2 pilot and conformance-matrix drivers write their reports
+under `docs/milestones/`.
+
 Other drivers : `scripts/pilot_cycle3_*.py`, `scripts/ablation_cycle3*.py`,
 `scripts/run_q2_conformance_audit.py`.
-
-The paper drivers write their reports under `docs/milestones/`.
 
 ## Public resources (planned)
 
